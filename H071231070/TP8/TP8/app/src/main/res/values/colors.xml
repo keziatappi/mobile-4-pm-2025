@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#221d42</color>
+    <color name="greyishBlue">#232036</color>
+    <color name="grey">#F7F2EC</color>
+    <color name="textWhite">#d6d6e8</color>
+    <color name="textGrey">#7d7d8c</color>
+    <color name="red">#e63656</color>
+    <color name="orangePastel">#f7d7d7</color>
+    <color name="yellowPastel">#fff5e1</color>
+    <color name="bluePastel">#dae8ff</color>
+    <color name="greenPastel">#d7f7d7</color>
+    <color name="purplePastel">#dbbbfa</color>
+    <color name="redPastel">#f7d7d7</color>
+    <color name="greyishPurple">#524e73</color>
+    <color name="pinkPastel">#FFE9EC</color>
+    <color name="brownPastel">#DDC3B5</color>
+</resources>

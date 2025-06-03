@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/ll_item"
+            android:layout_width="180dp"
+            android:layout_height="225dp"
+            android:paddingHorizontal="15dp"
+            android:paddingVertical="10dp"
+            android:orientation="vertical"
+            android:background="@drawable/shape_blue">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textColor="@color/background"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:textSize="15sp"
+                android:textColor="@color/background"
+                android:text="suityan suki da.  yokka mae ne, suityan ga fukki haishinshitanndayo. 2kagetu buri no haishin, yatto modottekita. fukki... "
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"/>
+
+            <TextView
+                android:id="@+id/tv_createdDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Created at 2025/05/20 23:08:31"
+                android:textColor="@color/background"
+                android:layout_marginTop="5dp"/>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_add"
+            android:layout_width="180dp"
+            android:layout_height="225dp"
+            android:src="@drawable/ic_add"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:padding="65dp"
+            android:clickable="true"
+            android:focusable="true"/>
+    </FrameLayout>
+</LinearLayout>

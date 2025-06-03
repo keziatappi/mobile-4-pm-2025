@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Scrollable Form -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- Gambar Cover -->
+            <ImageView
+                android:id="@+id/iv_cover"
+                android:layout_width="150dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:scaleType="centerCrop"
+                android:padding="50dp"
+                android:contentDescription="Gambar Cover"
+                android:background="#292A2D"
+                android:src="@drawable/ic_add_image"/>
+
+            <!-- Judul -->
+            <EditText
+                android:id="@+id/et_title"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Judul Buku" />
+
+            <!-- Penulis -->
+            <EditText
+                android:id="@+id/et_author"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Penulis"
+                android:layout_marginTop="12dp" />
+
+            <!-- Tahun Terbit -->
+            <EditText
+                android:id="@+id/et_year"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:hint="Tahun Terbit"
+                android:inputType="number"
+                android:layout_marginTop="12dp" />
+
+            <!-- Blurb -->
+            <EditText
+                android:id="@+id/et_blurb"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:hint="Blurb (Deskripsi Singkat)"
+                android:inputType="textMultiLine"
+                android:gravity="top|start"
+                android:layout_marginTop="12dp" />
+
+            <!-- Tombol Simpan -->
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Simpan Buku"
+                android:layout_marginTop="24dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
